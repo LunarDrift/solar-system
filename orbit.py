@@ -4,7 +4,6 @@ from arcade.math import rotate_point
 
 WINDOW_WIDTH = 1280
 WINDOW_HEIGHT = 720
-QUARTER_WIDTH = WINDOW_WIDTH // 4
 HALF_WIDTH = WINDOW_WIDTH // 2
 HALF_HEIGHT = WINDOW_HEIGHT // 2
 WINDOW_TITLE = "Solar System"
@@ -104,7 +103,7 @@ class SolarSystem(arcade.View):
         # Zoom parameters
         self.zoom = 1.0
         self.min_zoom = 0.07
-        self.max_zoom = 3.0
+        self.max_zoom = 2.0
 
         # Base speed for Earth
         base_speed = 50  # degrees per second for Earth
@@ -184,7 +183,13 @@ class SolarSystem(arcade.View):
 def main():
     """ Main function """
     # Create a window class. This is what actually shows up on screen
-    window = arcade.Window(WINDOW_WIDTH, WINDOW_HEIGHT, WINDOW_TITLE, antialiasing=True)
+    window = arcade.Window(
+        WINDOW_WIDTH,
+        WINDOW_HEIGHT,
+        WINDOW_TITLE,
+        antialiasing=True,
+        center_window=True,
+    )
     # Create and setup the View
     view = SolarSystem()
     # Show View on screen
