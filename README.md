@@ -58,7 +58,7 @@ Where:
  - `scale_factor` -> variable for how many pixels per AU
  - `b` -> semi-minor axis, slightly smaller than `a` to make an ellipse
 	 - Can change what we multiply `a` by. Smaller value = more exaggerated ellipse along x-axis, Larger value = more exaggerated ellipse along y-axis
-	 - Negative value will reverse orbit direction to counter-clockwise
+	 - Negative value will reverse orbit direction to clockwise
 	 
 Example:
 Mars -> 1.52 AU
