@@ -83,7 +83,10 @@ The orbital period of a planet can be calculated using Kepler's Third Law, which
 
 Where $T$ is the orbital period in Earth years and $a$ is the distance from the Sun in AU. 
 For example, if a planet is 2 AU from the Sun, can find its orbital period like:
-$T^2 = 2^3$     $T^2 = 8$    $T = √8$    $T = 2.83$ years
+$T^2 = 2^3$   
+$T^2 = 8$  
+$T = √8$   
+$T = 2.83$ years
 
 Using these two formulas allows us to calculate each planet's orbital speed relative to Earth
 
@@ -112,4 +115,4 @@ self.angle_deg = (self.angle_deg + self.speed * dt) % 360
 
 #### Sprite Scale
 
-Sprite scale is mostly visual. Roughly based on planet diameters relative to Earth. Scaling relative to the Sun results in the inner planets being far too small. 
+Sprite scale is mostly visual. Roughly based on planet diameters relative to Earth. Scaling relative to the Sun results in the inner planets being far too small.
