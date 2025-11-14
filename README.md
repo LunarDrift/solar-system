@@ -13,6 +13,9 @@ Semi-basic representation of our Solar System made using the Arcade library in P
 - Add moons
 - Asteroids/Comets
 - Better Planet images
+  
+![alt text](https://github.com/LunarDrift/solar-system/blob/main/'/Screenshot%20from%202025-11-13%2019-58-08.png "Example Image")
+![alt text](https://github.com/LunarDrift/solar-system/blob/main/'/Peek%202025-11-13%2019-56.gif "Example Gif")
 
 ---
 
